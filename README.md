@@ -1,13 +1,6 @@
 # Real-Time Voice Cloning
-This bachelor's graduation project adapts Corentin Jemine's Real-Time Voice Cloning implementation of SV2TTS. It generates English speech from new text and a short reference recording. This version includes a desktop interface, a command-line demo, recording-pair evaluation, and an optional fast CPU mode. [Upstream project](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
-
+This bachelor's graduation project adapts Corentin Jemine's Real-Time Voice Cloning implementation of SV2TTS. It generates English speech from new text and a short reference recording. This version includes a desktop interface, a command-line demo, recording-pair evaluation, and an optional fast CPU mode
 SV2TTS is a deep learning framework in three stages. In the first stage, one creates a digital representation of a voice from a few seconds of audio. In the second and third stages, this representation is used as reference to generate speech given arbitrary text.
-
-**Original upstream video demonstration**
-
-[![Toolbox demo](https://i.imgur.com/8lFUlgz.png)](https://www.youtube.com/watch?v=-O_hYhToKoA)
-
-
 
 ### Papers implemented  
 | URL | Designation | Title | Implementation source |
