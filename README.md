@@ -10,12 +10,6 @@ SV2TTS is a deep learning framework in three stages. In the first stage, one cre
 |[1703.10135](https://arxiv.org/pdf/1703.10135.pdf) | Tacotron (synthesizer) | Tacotron: Towards End-to-End Speech Synthesis | [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN)
 |[1710.10467](https://arxiv.org/pdf/1710.10467.pdf) | GE2E (encoder)| Generalized End-To-End Loss for Speaker Verification | Corentin Jemine's Real-Time Voice Cloning |
 
-## Heads up
-Like everything else in Deep Learning, this repo has quickly gotten old. Many SaaS apps (often paying) will give you a better audio quality than this repository will. If you wish for an open-source solution with a high voice quality:
-- Check out [paperswithcode](https://paperswithcode.com/task/speech-synthesis/) for other repositories and recent research in the field of speech synthesis.
-- Check out [CoquiTTS](https://github.com/coqui-ai/tts) for a repository with a better voice cloning quality and more functionalities.
-- Check out [MetaVoice-1B](https://github.com/metavoiceio/metavoice-src) for a large voice model with high voice quality
-
 ## Setup
 
 ### Install
