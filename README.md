@@ -2,14 +2,6 @@
 This bachelor's graduation project adapts Corentin Jemine's Real-Time Voice Cloning implementation of SV2TTS. It generates English speech from new text and a short reference recording. This version includes a desktop interface, a command-line demo, recording-pair evaluation, and an optional fast CPU mode
 SV2TTS is a deep learning framework in three stages. In the first stage, one creates a digital representation of a voice from a few seconds of audio. In the second and third stages, this representation is used as reference to generate speech given arbitrary text.
 
-### Papers implemented  
-| URL | Designation | Title | Implementation source |
-| --- | ----------- | ----- | --------------------- |
-|[**1806.04558**](https://arxiv.org/pdf/1806.04558.pdf) | **SV2TTS** | **Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis** | Corentin Jemine's Real-Time Voice Cloning |
-|[1802.08435](https://arxiv.org/pdf/1802.08435.pdf) | WaveRNN (vocoder) | Efficient Neural Audio Synthesis | [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN) |
-|[1703.10135](https://arxiv.org/pdf/1703.10135.pdf) | Tacotron (synthesizer) | Tacotron: Towards End-to-End Speech Synthesis | [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN)
-|[1710.10467](https://arxiv.org/pdf/1710.10467.pdf) | GE2E (encoder)| Generalized End-To-End Loss for Speaker Verification | Corentin Jemine's Real-Time Voice Cloning |
-
 ## Setup
 
 ### Install
