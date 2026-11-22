@@ -29,3 +29,10 @@ Run `python demo_toolbox.py`. Record five seconds with the system’s default mi
 Run `python Results.py` to score local pairs such as `recordings/recorded_1234567890.wav` and `generated/cloned_1234567890.wav`. The GUI creates this naming pattern when you record with the microphone. The evaluator writes `evaluation_results.csv` in the current directory. The cosine score measures speaker-embedding similarity. The `mos_estimate` column is a heuristic derived from automatic metrics. A listening study is needed to report a human mean opinion score.
 
 For training data, see the [supported datasets and folder layouts](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Training#datasets).
+
+## Our contributions
+
+We adapted Corentin Jemine’s open-source SV2TTS implementation for our
+bachelor’s project. We trained the speaker encoder, Tacotron synthesizer,
+and WaveRNN vocoder, with most of our work focused on the synthesizer.
+Our thesis documents VCTK Corpus as the training dataset.
